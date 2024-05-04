@@ -1,0 +1,21 @@
+{
+  "name": "cdci-3",
+  "version": "1.0.0",
+  "main": "calculo.js",
+  "scripts": {
+    "test": "jest ./test/calculo.test.js"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
